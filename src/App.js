@@ -13,7 +13,7 @@ function App() {
   const [state, setState] = useState('Gujarat');
 
   // API KEY AND URL
-  const apiKey = process.env.REACT_APP_API_KEY;
+  const apiKey = '1cd0672470dcac7cfe584005474af192';
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${state}&appid=${apiKey}`;
 
   // Side effect
